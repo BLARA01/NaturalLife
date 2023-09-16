@@ -42,6 +42,8 @@ footer {
   padding: 10px;
 }
 
+/* Login y registro */
+
 .login input,
 .register input {
   width: 200px;
