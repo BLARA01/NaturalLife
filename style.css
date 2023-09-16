@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 2em;
+  color: #000000;
+}
+
+nav {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+article {
+  border: 1px solid #000000;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
