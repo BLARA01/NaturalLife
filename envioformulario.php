@@ -16,9 +16,13 @@ $mensaje .= "Dirección: $direccion\n";
 
 // Envía el correo electrónico
 $headers = 'From: ' . $email . '\r\n';
-mail('brianmlara@outlook.com', 'Formulario de contacto', $mensaje, $headers);
 
-// Redirecciona al usuario a la página de agradecimiento
-header('Location: agradecimiento.html');
+if (mail('brianmlara@outlook.com', 'Formulario de contacto', $mensaje, $headers)) {
+    // El correo se envió con éxito, muestra un mensaje en la misma página
+    echo "Correo enviado con éxito. ¡Muchas gracias por tu consulta!";
+} else {
+    // Hubo un error al enviar el correo, muestra un mensaje de error
+    echo "Hubo un error al enviar el correo. Por favor, inténtalo de nuevo más tarde.";
+}
 
 ?>
