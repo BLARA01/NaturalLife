@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="./css/main.css"> <!-- Asegúrate de que el archivo CSS se llame "main.css" o ajústalo según el nombre de tu archivo CSS -->
+    <style>
+        /* Estilo adicional para centrar verticalmente el menú */
+        .menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%; /* Esto asegura que ocupe toda la altura del aside */
+        }
+
+        /* Estilo para los botones del menú */
+        .boton-menu {
+            background-color: var(--clr-main);
+            color: var(--clr-white);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 5px 0;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 18px; /* Tamaño de fuente más grande */
+        }
+
+        .boton-menu:hover {
+            background-color: var(--clr-main-light);
+        }
+    </style>
+
+    <!-- LINK DE FONTAWESOME PARA LOS ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link de stilos css -->
+    <link rel="stylesheet" href="css/redes.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <div class="logo">Natural Life</div>
+            <div class="menu">
+                <a href="index.html" class="boton-menu">Inicio</a>
+                <a href="nosotros.html" class="boton-menu">Nosotros</a>
+                <a href="productos.html" class="boton-menu">Productos</a>
+            </div>
+        </aside>
+        <main>
+            <center>><h1>Redes Sociales</h1></center>
+           
+           <br></br>
+           <br></br>
+           <br></br>
+           <br></br>
+           <br></br>
+           <br></br>
+
+            <div class="redes">
+                <div class="red red--whatsapp" style="--color: hsl(138, 87%, 49%);">
+                    <i class="fa-brands fa-whatsapp icon icon--whatsapp"></i>
+                    <span class="tooltip-whatsapp">Whatsapp</span>
+                </div>
+        
+                <div class="red red--facebook" style="--color: hsl(240, 70%, 50%);">
+                    <i class="fa-brands fa-facebook icon icon--facebook"></i>
+                    <span class="tooltip-facebook">Facebook</span>
+                </div>
+        
+                <div class="red red--instagram" style="--color: hsl(20, 70%, 50%);">
+                    <i class="fa-brands fa-instagram icon icon--instagrm"></i>
+                    <span class="tooltip-instagram">Instagram</span>
+                </div>
+        
+                
+                <div class="red red--twiter" style="--color: hsl(200, 100%, 50%);">
+                    <i class="fa-brands fa-twitter icon icon--twiter"></i>
+                    <span class="tooltip-twiter">Twiter</span>
+                </div>
+        
+            </div>
+       
+            </section>
+        </main>
+    </div>
+</body>
+</html>
