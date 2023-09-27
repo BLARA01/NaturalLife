@@ -1,0 +1,10 @@
+{
+        "id": "Jabones-01",
+        "titulo": "Jabones 01",
+        "imagen": "imagenes/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Jabones",
+            "id": "Jabones"
+        },
+        "precio": 1000
+    },

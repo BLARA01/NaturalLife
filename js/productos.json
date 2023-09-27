@@ -1,0 +1,35 @@
+[
+    
+    {
+        "id": "Jabones-02",
+        "titulo": "Jabones 02",
+        "imagen": "imagenes/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Jabones",
+            "id": "Jabones"
+        },
+        "precio": 1000
+    },
+
+    {
+        "id": "Cremas-03",
+        "titulo": "Cremas 03",
+        "imagen": "imagenes/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Cremas",
+            "id": "Cremas"
+        },
+        "precio": 1000
+    },
+    
+    {
+        "id": "Proximamente-03",
+        "titulo": "Proximamente 03",
+        "imagen": "imagenes/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Proximamente",
+            "id": "Proximamente"
+        },
+        "precio": 1000
+    }
+]
