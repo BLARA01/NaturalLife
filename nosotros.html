@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="./css/main.css"> <!-- Asegúrate de que el archivo CSS se llame "main.css" o ajústalo según el nombre de tu archivo CSS -->
+    <style>
+        /* Estilo adicional para centrar verticalmente el menú */
+        .menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%; /* Esto asegura que ocupe toda la altura del aside */
+        }
+
+        /* Estilo para los botones del menú */
+        .boton-menu {
+            background-color: var(--clr-main);
+            color: var(--clr-white);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 5px 0;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 18px; /* Tamaño de fuente más grande */
+        }
+
+        .boton-menu:hover {
+            background-color: var(--clr-main-light);
+        }
+
+        main {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <div class="logo">Natural Life</div>
+            <div class="menu">
+                <a href="index.html" class="boton-menu">Inicio</a>
+                <a href="productos.html" class="boton-menu">Productos</a>
+                <a href="contacto.html" class="boton-menu">Contacto</a>
+            </div>
+        </aside>
+        <main>
+            <!-- Contenido de tu página aquí -->
+    <section id="titulo-natural-life">
+        <h1>¿Qué es Natural Life?</h1>
+        <p>Natural Life es un emprendimiento dedicado a la creación de productos naturales para el cuidado personal. Nuestra pasión se encuentra en la elaboración de jabones artesanales, cremas corporales y champús formulados con ingredientes naturales y de alta calidad. Nuestro compromiso es proporcionar opciones saludables y respetuosas con el medio ambiente para aquellos que desean cuidar su piel y cabello de una manera más natural y sostenible. Cada producto de Natural Life es cuidadosamente elaborado para brindar una experiencia de cuidado personal que armoniza con la naturaleza y promueve el bienestar.</p>
+    </section>
+
+    <br>
+</br>
+    
+    <section id="creador-natural-life">
+        <h2>¿Quién creó Natural Life?</h2>
+        <p>Natural Life fue fundada por Melany Lara, una emprendedora nacida en 1999 en Catriló, La Pampa. Su visión y pasión por la naturaleza y el cuidado personal la inspiraron a crear este emprendimiento dedicado a la elaboración de productos naturales para el cuidado personal. Melany Lara se compromete a ofrecer productos de alta calidad formulados con ingredientes naturales y a promover un estilo de vida más saludable y sostenible. Su historia y dedicación son la base de Natural Life, una marca que refleja el espíritu emprendedor y la búsqueda de la armonía con la naturaleza.</p>
+    </section>
+
+    <br>
+</br>
+
+    <section id="foto-creador">
+        <h3>Conoce a Melany Lara</h3>
+        <img src="imagenes/FotoMela.jpeg" alt="Imagen de Melany Lara" width="345">
+    </section>
+        </main>
+    </div>
+</body>
+</html>
